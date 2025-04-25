@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://test-time-training.github.io/video-dit/ -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mahmoud Ali | AI & Creative Tech Portfolio</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="I'm Mahmoud Ali — a creative technologist, AI builder, and prompt engineer. With a background in IT, business, and AI tools, I help brands and creators transform their ideas into smart, automated, and visually compelling content.">
+  <meta name="keywords" content="AI, creative technology, prompt engineering, content automation, visual storytelling, brand development">
+  <meta name="author" content="Mahmoud Ali">
+  <meta property="og:title" content="Mahmoud Ali | AI & Creative Tech Portfolio">
+  <meta property="og:description" content="Creative technologist specializing in AI tools, content automation, and visual storytelling for brands and creators.">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:title" content="Mahmoud Ali | AI & Creative Tech Portfolio">
+  <meta name="twitter:description" content="Creative technologist specializing in AI tools, content automation, and visual storytelling for brands and creators.">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="main.css">
+  <script defer="" src="script.js" data-website-id="46fb7b42-7fcc-4ad0-8cd3-425b0c99828d"></script>
+  <script defer="" src="javascript.js"  ></script>
+  <style>
+    :root {
+      --primary-blue: #0a84ff;
+      --accent-blue: #00c2ff;
+      --dark-blue: #0a4a80;
+      --neon-blue: #00e5ff;
+      --dark-bg: #121620;
+      --darker-bg: #0b0e16;
+      --card-bg: #171d2c;
+      --text-light: #f4f7ff;
+      --text-dim: #bbc3da;
+      
+      /* Font Families */
+      --heading-font: 'Space Grotesk', sans-serif;
+      --body-font: 'Inter', sans-serif;
+      --ui-font: 'Outfit', sans-serif;
+    }
+    
+    body {
+      background-color: var(--dark-bg);
+      color: var(--text-light);
+      font-family: var(--body-font);
+      font-weight: 400;
+      line-height: 1.7;
+      letter-spacing: 0.01em;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--heading-font);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+    
+    .section {
+      background-color: var(--card-bg);
+      border: 1px solid rgba(0, 197, 255, 0.1);
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(10, 132, 255, 0.1);
+      margin-bottom: 30px;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: var(--text-light);
+      text-shadow: 0 0 5px var(--primary-blue);
+      margin-bottom: 15px;
+      font-size: 2.2rem;
+    }
+    
+    p {
+      color: var(--text-dim);
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+    
+    .video-label {
+      background-color: rgba(10, 132, 255, 0.15);
+      color: var(--neon-blue);
+      font-weight: 600;
+      border-radius: 4px;
+      padding: 5px 10px;
+      font-family: var(--ui-font);
+      letter-spacing: 0.02em;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+    }
+    
+    .button-light {
+      background: rgba(10, 132, 255, 0.15) !important;
+      color: var(--neon-blue) !important;
+      border: 1px solid var(--primary-blue);
+      transition: all 0.3s ease;
+      border-radius: 4px;
+      font-family: var(--ui-font);
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
+    
+    .button-light:hover {
+      background: rgba(10, 132, 255, 0.3) !important;
+      box-shadow: 0 0 10px var(--primary-blue);
+    }
+
+    .header-nav {
+      position: fixed;
+      top: 0;
+      right: 20px;
+      z-index: 1000;
+      display: flex;
+      gap: 10px;
+      padding: 15px;
+    }
+    
+    .header-button {
+      background: rgba(10, 132, 255, 0.15);
+      color: var(--neon-blue);
+      border: 1px solid var(--primary-blue);
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      font-family: var(--ui-font);
+      letter-spacing: 0.03em;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+    }
+    
+    .header-button:hover {
+      background: rgba(10, 132, 255, 0.3);
+      box-shadow: 0 0 10px var(--primary-blue);
+    }
+
+    .icon-title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .icon-title .icon {
+      margin-right: 10px;
+      font-size: 1.5em;
+    }
+    
+    .video-wrapper {
+      border: 1px solid var(--dark-blue);
+      border-radius: 6px;
+      overflow: hidden;
+      background-color: rgba(10, 132, 255, 0.05);
+    }
+    
+    .video-description {
+      padding: 10px;
+      background-color: rgba(10, 132, 255, 0.05);
+      border-top: 1px solid var(--dark-blue);
+      font-family: var(--body-font);
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+    
+    .demo-videos-heading h1 {
+      color: var(--neon-blue);
+      font-size: 2.5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: -0.03em;
+    }
+    
+    .demo-videos-heading p {
+      color: var(--text-dim);
+      font-family: var(--ui-font);
+      font-size: 1.1rem;
+      letter-spacing: 0.01em;
+    }
+    
+    .scene-consistency-container {
+      padding: 10px;
+      background-color: rgba(10, 132, 255, 0.02);
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    
+    a {
+      color: var(--neon-blue);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    
+    a:hover {
+      text-decoration: none;
+      color: var(--accent-blue);
+    }
+    
+    .text-only-section h1 {
+      font-size: 1.8rem;
+      position: relative;
+      display: inline-block;
+    }
+    
+    .text-only-section h1:after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: var(--neon-blue);
+      border-radius: 3px;
+    }
+    
+    .author-list {
+      font-family: var(--ui-font);
+    }
+    
+    .header {
+      font-family: var(--heading-font);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header Navigation -->
+  <div class="header-nav">
+    <a href="M.L.pdf" class="header-button" download>Download CV</a>
+    <a href="https://wa.me/201064010060" class="header-button">Hire Me</a>
+  </div>
+
+  <!-- Scroll space -->
+  <div class="hero"></div>
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator" style="opacity: 0;">&gt;</div>
+  <!-- Demo Videos heading -->
+  <div class="demo-videos-heading" style="opacity: 0.892191;">
+    <h1>Featured Projects</h1>
+    <p>Click any project to see details</p>
+  </div>
+  <!-- 3×2 Grid of video slots (target slot is the middle cell of the first row) -->
+  <div class="grid-container">
+    <div class="video-slot">
+      <img src="1.png" alt="" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" data-prompt-summary="Dreamy Comfort – AI-Enhanced Mattress Poster Series" data-prompt="A visual campaign promoting luxury mattresses using AI-generated visuals (Midjourney) and smooth animation (Runway). The posters highlight softness, comfort, and premium sleep experience with high-end aesthetics.">
+    </div>
+    <div class="video-slot" id="centerSlot">
+      <!-- This slot intentionally left empty for the transformation effect -->
+    </div>
+    <div class="video-slot">
+      <video src="video.mp4" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" data-prompt-summary="PANDA Beauty – Product Rebranding with Visual AI" data-prompt="A rebranding concept for a skincare and haircare product line. Original product photos were enhanced using ComfyUI + FLUX Diffusion model to create visually captivating covers, then animated with Runway and Kling for a cinematic touch.">
+      </video>
+    </div>
+  </div>
+  <div class="grid-container">
+    <div class="video-slot">
+      <img src="1.png" alt="AI-Enhanced Luxury Campaign" data-prompt-summary="AI-Enhanced Luxury Campaign" data-prompt="Revolutionizing luxury marketing through AI-generated visuals. Created using advanced Midjourney techniques and custom fine-tuned models to achieve premium aesthetics that resonate with high-end consumers. Results: 40% increase in engagement metrics.">
+    </div>
+    <div class="video-slot">
+      <img src="7.png" alt="AI Fashion Collection Generator" data-prompt-summary="AI Fashion Collection Generator" data-prompt="Revolutionary AI system that transforms fashion design workflows. Built with custom-trained Stable Diffusion models and proprietary ControlNet implementations. Key features: Style consistency, commercial viability analysis, and automated tech pack generation. Reduced design iteration time by 60%.">
+    </div>
+    <div class="video-slot">
+      <video src="video5.mp4" autoplay muted loop playsinline webkit-playsinline data-prompt-summary="Dreamy Comfort – AI-Enhanced Mattress Poster Series" data-prompt="A visual campaign promoting luxury mattresses using AI-generated visuals (Midjourney) and smooth animation (Runway). The posters highlight softness, comfort, and premium sleep experience with high-end aesthetics.">
+      </video>
+    </div>
+  </div>
+  <div class="content">
+    <div class="section">
+      <div class="text-only-section">
+        <h1>About</h1>
+        <p style="text-align: justify;">I'm Mahmoud Ali — a creative technologist, AI builder, and prompt engineer. With a background in IT, business, and AI tools, I help brands and creators transform their ideas into smart, automated, and visually compelling content. This portfolio showcases my most impactful projects across Generative AI, visual storytelling, and smart tools for content and branding.</p>
+        <p style="text-align: justify;">Each project here reflects a fusion of technology and creativity — from automated video generation and AI content agents to brand visuals, motion design, and smart systems built with AI-first thinking.</p>
+        <div class="buttons">
+          <div class="button-container">
+            <a href="M.L.pdf" class="button-light" style="background: rgba(0, 0, 0, 0.04)" rel="noopener noreferrer" target="_blank">Resume</a>
+          </div>
+          <div class="button-container">
+            <a href="#projects" class="button-light" style="background: rgba(0, 0, 0, 0.04)" target="_blank" rel="noopener noreferrer">Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="text-only-section">
+        <h1>Featured Projects</h1>
+        <p style="text-align: justify;">These projects showcase my expertise in AI-powered creative technology. Using cutting-edge tools like Midjourney, Runway, and various diffusion models, I create compelling visual content that helps brands communicate effectively with their audience.</p>
+        <div class="buttons">
+          <div class="button-container">
+            <a href="#projects" class="button-light" style="background: rgba(0, 0, 0, 0.04)" rel="noopener noreferrer" target="_blank">View All</a>
+          </div>
+          <div class="button-container">
+            <a href="https://wa.me/201064010060" class="button-light" style="background: rgba(0, 0, 0, 0.04)" target="_blank" rel="noopener noreferrer">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Projects Section 1 -->
+    <div class="section scene-consistency">
+      <div class="text-only-section">
+        <div class="icon-title">
+          <span class="icon">🧠</span>
+          <h1>AI Tools & Agents</h1>
+        </div>
+        <p>Innovative AI solutions that automate processes and enhance creative workflows.</p>
+      </div>
+      <div class="scene-consistency-container">
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">AI Video Studio</span>
+            <img src="2.png" alt="Enterprise Video Generation Platform" data-prompt-summary="Enterprise Video Generation Platform" data-prompt="Full-stack video generation platform built with React, Node.js, and Google Cloud AI. Features: Multi-model pipeline, custom fine-tuning, and enterprise integration capabilities. Processing 10k+ videos monthly for major brands.">
+          </div>
+          <p class="video-description">Enterprise-grade video generation platform with advanced AI capabilities.</p>
+        </div>
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Content Strategy</span>
+            <img src="3.png" alt="Content Strategist AI Agent" data-prompt-summary="Content Strategist AI Agent" data-prompt="Auto-generates content calendars, SEO hooks, and platform-specific ideas for marketers.">
+          </div>
+          <p class="video-description">AI agent that generates content calendars and marketing strategies.</p>
+        </div>
+      </div>
+      <div class="scene-consistency-container">
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Caption Generator</span>
+            <video src="video2.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="CaptionCraft AI" data-prompt="Generate social media captions + hashtags using Gemini and prompt engineering.">
+            </video>
+          </div>
+          <p class="video-description">Social media caption generator powered by Gemini AI.</p>
+        </div>
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Prompt Library</span>
+            <video src="video2.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="Prompt Library Builder" data-prompt="A structured prompt toolkit for various industries — creatives, marketers, and startups.">
+            </video>
+          </div>
+          <p class="video-description">Structured prompt toolkit customized for different industries.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Projects Section 2 -->
+    <div class="section scene-consistency">
+      <div class="text-only-section">
+        <div class="icon-title">
+          <span class="icon">🎨</span>
+          <h1>Visual Branding & Creative AI</h1>
+        </div>
+        <p>Visually striking brand assets created with state-of-the-art AI tools and creative direction.</p>
+      </div>
+      <div class="scene-consistency-container">
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Poster Design</span>
+            <video src="video3.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="Dreamy Comfort – Mattress Poster Series" data-prompt="Visual identity + animation using Midjourney and Runway.">
+            </video>
+            <p class="video-description">Luxury mattress campaign with dreamy visuals and smooth animation.</p>
+          </div>
+          <div class="video-wrapper">
+            <span class="video-label">Brand Evolution</span>
+            <video src="video3.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="AI-Powered Brand Transformation" data-prompt="Comprehensive brand evolution system utilizing cutting-edge AI models. Workflow: Initial brand analysis → Style transfer → Animation pipeline. Technologies: Custom ControlNet, Runway Gen-2, After Effects integration. Results: 80% faster brand refresh cycles.">
+            </video>
+            <p class="video-description">AI-driven brand transformation system with proven ROI metrics.</p>
+          </div>
+          <div class="video-wrapper">
+            <span class="video-label">Product Branding</span>
+            <video src="video3.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="PANDA Beauty Rebrand" data-prompt="Real product photo enhancement and animation using FLUX + ComfyUI + Kling.">
+            </video>
+            <p class="video-description">Beauty product rebrand with enhanced photography and animation.</p>
+          </div>
+        </div>
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Web Design</span>
+            <video src="video3.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="Cosmic Canopy Web Banner" data-prompt="Animated AI banner design for futuristic brands.">
+            </video>
+            <p class="video-description">Futuristic animated web banner for tech and aerospace brands.</p>
+          </div>
+          <div class="video-wrapper">
+            <span class="video-label">Beauty Campaign</span>
+            <video src="video3.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="Silky Hair Campaign" data-prompt="Product animations for haircare brand using Kling + CapCut.">
+            </video>
+            <p class="video-description">Elegant haircare visuals optimized for social media campaigns.</p>
+          </div>
+        </div>
+      </div>
+      <div class="scene-consistency-container">
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Luxury Visuals</span>
+            <video src="video3.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="Golden Glow Product Poster" data-prompt="High-end beauty visuals with radiant AI lighting and cinematic motion.">
+            </video>
+          </div>
+          <p class="video-description">Premium skincare visuals with sophisticated lighting effects.</p>
+        </div>
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Eco-Friendly Design</span>
+            <video src="video3.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="EcoLuxury Skincare Packaging" data-prompt="Sustainable design with AI-enhanced textures and organic branding.">
+            </video>
+          </div>
+          <p class="video-description">Sustainable beauty packaging with organic textures and premium feel.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Projects Section 3 -->
+    <div class="section scene-consistency">
+      <div class="text-only-section">
+        <div class="icon-title">
+          <span class="icon">🎥</span>
+          <h1>Marketing & Campaign Videos</h1>
+        </div>
+        <p>Engaging video content that elevates brands and drives customer engagement.</p>
+      </div>
+      <div class="scene-consistency-container">
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">E-commerce Design</span>
+            <video src="video8.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="The Skin Ritual Landing Page" data-prompt="Hero section with animated visuals for e-commerce and skincare.">
+            </video>
+          </div>
+          <p class="video-description">High-converting landing page design for skincare products.</p>
+        </div>
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Social Media Ads</span>
+            <video src="video4.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="Luxury Lipstick Teaser" data-prompt="Social media ad with dramatic visuals and storytelling.">
+            </video>
+          </div>
+          <p class="video-description">Captivating social ads for luxury cosmetics with dramatic effects.</p>
+        </div>
+        <div class="scene-column">
+          <div class="video-wrapper">
+            <span class="video-label">Product Commercial</span>
+            <video src="video7.mp4" autoplay="" loop="" muted="" playsinline="" webkit-playsinline="" data-prompt-summary="Al-Qadi + Relax Mattress Ads" data-prompt="Full animated product ads created with Midjourney + Runway + CapCut.">
+            </video>
+          </div>
+          <p class="video-description">Complete animated commercials from concept to final edit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="text-only-section">
+        <div class="icon-title">
+          <span class="icon">⚡</span>
+          <h1>Technical Expertise</h1>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>AI & ML</h3>
+            <ul>
+              <li>Custom Model Training</li>
+              <li>Prompt Engineering</li>
+              <li>Computer Vision</li>
+              <li>NLP Systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Fullscreen video with overlay text -->
+      <div id="mainVideoContainer" class="locked" style="width: 614.391px; height: 345.594px; left: 645.297px; top: 582.609px; position: absolute;">
+        <div class="overlay" style="pointer-events: none; opacity: 0;"></div>
+        <video src="video.mp4" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" data-prompt-summary="Botanic Shine – Herbal Haircare Label Series" data-prompt="Created a full set of product labels and packaging visuals that highlight organic ingredients and soothing tones. AI tools were used to generate concept art, and final designs were refined in Adobe Illustrator.">
+        </video>
+        <div id="overlayText" style="pointer-events: none; opacity: 0;">
+          <div class="header">Mahmoud Ali</div>
+          <div class="header">AI & Creative Tech Portfolio</div>
+          <div class="author-list">
+            <div class="author-container-1">
+              <div class="grid-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">Email</a>
+              </div>
+              <div class="grid-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              </div>
+              <div class="grid-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">Twitter</a>
+              </div>
+              <div class="grid-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+              </div>
+            </div>
+            <div class="author-container-2">
+              <div class="grid-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">Blog</a>
+              </div>
+              <div class="grid-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">Projects</a>
+              </div>
+              <div class="grid-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">Certificates</a>
+              </div>
+            </div>
+            <div class="author-container-3">
+              <div class="grid-item">
+                <a href="#" target="_blank" rel="noopener noreferrer">Resume</a>
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button-container">
+              <a href="#" class="button-light" rel="noopener noreferrer" target="_blank">Contact</a>
+            </div>
+            <div class="button-container">
+              <a href="#" class="button-light" target="_blank" rel="noopener noreferrer">Projects</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Video Modal for fullscreen playback on video or image click -->
+      <div id="videoModal">
+        <div class="modal-content">
+          <button class="close-button">×</button>
+          <!-- Wrap both media elements in a container -->
+          <div class="media-container">
+            <video class="modal-video" controls=""></video>
+            <img class="modal-image" style="display:none;">
+          </div>
+          <!-- Tabbed prompt container -->
+          <div class="prompt-container">
+            <div class="tab-bar">
+              <div class="tab active" data-tab-target="#textPromptTab">Project Summary</div>
+              <div class="tab" data-tab-target="#fullStoryboardTab">Full Details</div>
+            </div>
+            <div class="tab-content">
+              <div class="tab-pane active" id="textPromptTab">
+                <div id="modalPrompt" class="format1-prompt"></div>
+              </div>
+              <div class="tab-pane" id="fullStoryboardTab">
+                <div id="modalPrompt2" class="format2-prompt"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<style>
+    .main-nav {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .main-nav a {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 16px;
+        background: rgba(10, 132, 255, 0.15);
+        border-radius: 4px;
+        transition: all 0.3s ease;
+    }
+    
+    .main-nav a:hover {
+        background: rgba(10, 132, 255, 0.3);
+        box-shadow: 0 0 10px var(--primary-blue);
+    }
+    
+    .main-nav i {
+        font-size: 1.2em;
+    }
+</style>
+<nav class="main-nav">
+    <a href="mailto:mahmoudali002@gmail.com" title="Email">
+        <i class="fas fa-envelope"></i> Email
+    </a>
+    <a href="https://www.linkedin.com/in/mahmoud-ali-a00990174/" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/Mahmoudali002" target="_blank" title="GitHub">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+    <a href="https://huggingface.co/mah002" target="_blank" title="HuggingFace">
+        <i class="fas fa-robot"></i> HuggingFace
+    </a>
+    <a href="https://www.upwork.com/freelancers/~014aeb8c8f52ef9008?mp_source=share" target="_blank" title="Upwork">
+        <i class="fas fa-briefcase"></i> Upwork
+    </a>
+    <a href="https://www.behance.net/mahmoudali002" target="_blank" title="Behance">
+        <i class="fab fa-behance"></i> Behance
+    </a>
+    <a href="/blog" title="Blog">
+        <i class="fas fa-blog"></i> Blog
+    </a>
+    <a href="/projects" title="Projects">
+        <i class="fas fa-project-diagram"></i> Projects
+    </a>
+    <a href="/certificates" title="Certificates">
+        <i class="fas fa-certificate"></i> Certificates
+    </a>
+    <a href="/resume" title="Resume">
+        <i class="fas fa-file-alt"></i> Resume
+    </a>
+</nav>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
